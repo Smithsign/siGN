@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SIGN Core Team 3D Gallery</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -12,29 +12,23 @@
         <h1 class="title">SIGN CORE TEAM</h1>
         
         <div class="small-images">
-            <div class="small-image-container">
-                <img src="vest.png" class="small-image">
-            </div>
-            <div class="small-image-container">
-                <img src="glass.png" class="small-image">
-            </div>
-            <div class="small-image-container">
-                <img src="support.png" class="small-image">
-            </div>
-            <div class="small-image-container">
-                <img src="dragon.png" class="small-image">
-            </div>
+            <img src="vest.png" class="small-image">
+            <img src="glass.png" class="small-image">
+            <img src="support.png" class="small-image">
+            <img src="dragon.png" class="small-image">
         </div>
     </div>
 
-    <div class="center-container">
-        <div class="logo-container">
-            <video autoplay loop muted playsinline class="logo">
-                <source src="sign.mp4" type="video/mp4">
-            </video>
-        </div>
-        
+    <div class="gallery-container">
         <div class="box">
+            <!-- Floating Logo in Center -->
+            <div class="logo-container">
+                <video autoplay loop muted playsinline class="floating-logo">
+                    <source src="sign.mp4" type="video/mp4">
+                </video>
+            </div>
+            
+            <!-- Rotating Team Members -->
             <span style="--i:1;">
                 <div class="name">SIGN Product Queen</div>
                 <img src="claire.jpg">
